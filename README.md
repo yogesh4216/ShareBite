@@ -4,7 +4,7 @@
 ShareBite connects food donors with those in need, reducing waste and fighting hunger through a mobile-first platform.
 
 ## 🎥 Demo
-- **Live App**: [Expo Link](exp://exp.host/@username/sharebite)
+- **Live App**: https://expo.dev/preview/update?message=Initial+commit%0A%0AGenerated+by+create-expo-app+3.5.3.&updateRuntimeVersion=1.0.0&createdAt=2026-01-28T16%3A40%3A52.674Z&slug=exp&projectId=9f19d301-00b6-4ab8-9442-102dc0e27e2d&group=3ed14f9c-6090-4236-8060-c3251cff1352
 - **Backend API**: https://sharebite-api.onrender.com
 - **Demo Video**: [YouTube Link]
 - **Screenshots**: See `/screenshots` folder
