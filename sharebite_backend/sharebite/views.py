@@ -76,6 +76,7 @@ def setup_demo_data(request):
             quantity='3 slices',
             pickup_location='123 Main St, New York, NY',
             provider=provider,
+            phone_number='555-0123',
             expiry_date=timezone.now() + timedelta(hours=4),
             description="Fresh pepperoni pizza slices left over from lunch service."
         )
