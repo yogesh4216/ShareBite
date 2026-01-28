@@ -8,7 +8,7 @@ from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 from rest_framework import permissions
 
-from .views import WelcomeView
+from .views import WelcomeView, setup_demo_data
 from accounts.views import RegisterView, LoginView, ProfileView
 from listings.views import FoodListingViewSet
 from claims.views import ClaimViewSet
@@ -35,6 +35,7 @@ router.register(r'analytics', AnalyticsViewSet, basename='analytics')
 urlpatterns = [
     # Root - Welcome page with API info
     path('', WelcomeView.as_view(), name='index'),
+    path('setup_demo_data/', setup_demo_data, name='setup_demo_data'),
     
     path('admin/', admin.site.urls),
     
