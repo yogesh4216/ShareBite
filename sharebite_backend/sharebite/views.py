@@ -33,7 +33,7 @@ def setup_demo_data(request):
     """
     try:
         from accounts.models import User
-        from listings.models import Listing
+        from listings.models import FoodListing as Listing  # Import correctly
         from datetime import datetime, timedelta
         from django.utils import timezone
         
