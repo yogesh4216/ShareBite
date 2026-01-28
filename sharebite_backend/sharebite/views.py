@@ -89,4 +89,4 @@ def setup_demo_data(request):
             'status': 'error', 
             'message': str(e),
             'traceback': traceback.format_exc()
-        }, status=500)
+        }, status=200)
